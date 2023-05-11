@@ -25,6 +25,9 @@ const config: HardhatUserConfig = {
       url: process.env.RPC_URL,
     },
   },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API_KEY,
+  },
 };
 
 export default config;
