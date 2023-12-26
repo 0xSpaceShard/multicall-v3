@@ -24,6 +24,10 @@ const config: HardhatUserConfig = {
       accounts: [process.env.PRIVATE_KEY || ""],
       url: process.env.RPC_URL,
     },
+    sepolia: {
+      accounts: [process.env.PRIVATE_KEY || ""],
+      url: process.env.RPC_URL,
+    },
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
